@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio — Wagner Santos</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVEGAÇÃO -->
+  <nav id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="logo">Wagner Santos</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">Sobre</a></li>
+        <li><a href="#skills" class="nav-link">Habilidades</a></li>
+        <li><a href="#projects" class="nav-link">Projetos</a></li>
+        <li><a href="#contact" class="nav-link">Contato</a></li>
+      </ul>
+      <button class="mobile-menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+    </div>
+  </nav>
+
+  <!-- HOME -->
+  <section id="home" class="section">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <h1>Wagner Santos</h1>
+          <div class="role">Estudante Técnico em Informática</div>
+          <p>Esse é o meu portfólio e é onde apresentarei alguns de meus projetos.
+          <div class="hero-btns">
+            <a href="#projects" class="btn btn-primary">Ver Projetos</a>
+            <a href="#contact" class="btn btn-outline">Entrar em Contato</a>
+          </div>
+        </div>
+        <div class="hero-photo">
+          <img src="/Imagens/foto.jpg" alt="Foto de Wagner Santos">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">Sobre Mim</h2>
+      <p class="section-subtitle">Conheça um pouco da minha trajetória</p>
+      <div class="about-text">
+        <p>Sou um profissional de TI movido pela curiosidade e pelo desafio de transformar problemas complexos em soluções funcionais. Minha trajetória é definida por uma mentalidade investigativa e pela capacidade de unir a precisão técnica do hardware com a organização de processos administrativos.</p>
+        <p>Além do domínio em manutenção de computadores, redes e análise de dados (Power BI/SQL), possuo formação como Assistente Administrativo pelo Senac Minas. Essa combinação me permite atuar não apenas no suporte técnico, mas também na otimização de rotinas operacionais, atendimento ao cliente e suporte logístico com uma visão estratégica.</p>
+        <p>Reconhecido por professores e parceiros pela resiliência e raciocínio lógico, busco oportunidades onde eu possa aplicar minha disciplina técnica e meu conhecimento em gestão para garantir a eficiência e a continuidade dos processos corporativos.</p>
+    </div>
+    </div>
+  </section>
+
+  <!-- HABILIDADES -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title">Habilidades</h2>
+      <p class="section-subtitle">Tecnologias e ferramentas que domino</p>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>🎨 Frontend</h3>
+          <p>Desenvolvimento de interfaces modernas, responsivas e acessíveis com foco na experiência do usuário.</p>
+          <div class="skill-tags">
+            <span class="tag">JavaScript</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">HTML5</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>⚙️ Backend</h3>
+          <p>Construção de APIs robustas, seguras e escaláveis para suportar aplicações de alta demanda.</p>
+          <div class="skill-tags">
+            <span class="tag">Node.js</span>
+            <span class="tag">Python</span>
+            <span class="tag">Flask</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>🚀 DevOps & Ferramentas</h3>
+          <p>Automação de deploys, integração contínua e ferramentas que aceleram o desenvolvimento.</p>
+          <div class="skill-tags">
+            <span class="tag">GitHub</span>
+            <span class="tag">Render</span>
+            <span class="tag">Vercel</span>
+            <span class="tag">Supabase</span>
+            <span class="tag">Figma</span>
+            <span class="tag">Thunder Client</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>📊 Analista de Dados</h3>
+          <p>Análise e interpretação de dados para tomada de decisão estratégica.</p>
+          <div class="skill-tags">
+            <span class="tag">Power BI</span>
+            <span class="tag">Python</span>
+            <span class="tag">Excel Avançado</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">SQL</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>🤖 IA Generativa</h3>
+          <p>Desenvolvimento e implementação de soluções de inteligência artificial para resolver problemas complexos.</p>
+          <div class="skill-tags">
+            <span class="tag">Gemini</span>
+            <span class="tag">ChatGPT</span>
+            <span class="tag">Claude</span>
+            <span class="tag">Kimi</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETOS -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">Projetos</h2>
+      <p class="section-subtitle">Alguns dos trabalhos que estou desenvolvendo</p>
+      <div class="projects-grid" id="projectsGrid"></div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title">Contato</h2>
+      <!-- <p class="section-subtitle">Vamos conversar sobre seu próximo projeto</p> -->
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Informações de Contato</h3>
+          <p><span class="icon">📧</span> wagnersantosdgn@email.com</p>
+          <p><span class="icon">📱</span> +55 (31) 98842-3005</p>
+          <p><span class="icon">📍</span> Betim, MG - Brasil</p>
+          <p><span class="icon">💼</span> <a href="https://www.linkedin.com/in/wagnersantosmg/" target="_blank">linkedin.com/in/wagnersantos</a></p>
+          <p><span class="icon">🐙</span> <a href="https://github.com/wagnersantosdgn" target="_blank">github.com/wagnersantos</a></p>
+          <p><span class="icon">📷</span> <a href="https://www.instagram.com/wagners_16/" target="_blank">instagram.com/wagnersantosdgn</a></p>
+        </div>
+        <!-- <div class="contact-form">
+          <div class="form-group">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" placeholder="Seu nome">
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="seu@email.com">
+          </div>
+          <div class="form-group">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" placeholder="Sua mensagem..."></textarea>
+          </div>
+          <button class="btn btn-primary" id="btnEnviar" style="width:100%">Enviar Mensagem</button>
+        </div> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>© 2026 Wagner Santos. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- MODAL DE DETALHES DO PROJETO -->
+  <div class="modal-overlay" id="projectModal">
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose" aria-label="Fechar">✕</button>
+      <div class="modal-body">
+        <div class="detail-header">
+          <h1 id="modalTitle"></h1>
+          <div class="detail-date" id="modalDate"></div>
+        </div>
+        <div class="detail-gallery" id="modalGallery"></div>
+        <div class="detail-desc" id="modalDesc"></div>
+        <div class="detail-links" id="modalLinks"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
